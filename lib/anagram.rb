@@ -8,4 +8,5 @@ class Anagram
     @diaper = diaper
     
   end
+  
 end

@@ -13,7 +13,8 @@ class Anagram
     
    # @diaper.sort{|diapers| diapers}
      # diapers
-     @diaper
+     @diaper.find{|diapers| 
+     self.all.find {|i| i.name == name}
     
   end
   

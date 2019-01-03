@@ -12,9 +12,8 @@ class Anagram
   
   def match(diaper)
     
-   @diaper.split(//)
-   binding.pry
-   @diaper
+   @diaper.split(//).sort == diaper.split(//).sort
+   
     
   end
   

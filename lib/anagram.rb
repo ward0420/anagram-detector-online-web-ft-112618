@@ -11,6 +11,8 @@ class Anagram
   
   def match(diaper)
     
+    diaper
+    
   end
   
 end

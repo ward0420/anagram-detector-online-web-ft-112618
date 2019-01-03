@@ -12,7 +12,8 @@ class Anagram
   def match(diaper)
     
     diaper.select{|diapers| diapers !== diapers}
-    diapers
+      diapers
+    end
     
   end
   

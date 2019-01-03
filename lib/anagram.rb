@@ -1,6 +1,6 @@
 # Your code goes here!
 class Anagram
-  def initialize
+  def initialize(diaper)
     
     @diaper = diaper
     

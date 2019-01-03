@@ -11,8 +11,9 @@ class Anagram
   
   def match(diaper)
     
-    @diaper.sort{|diapers| diapers}
-      diapers
+   # @diaper.sort{|diapers| diapers}
+     # diapers
+     @diaper
     
   end
   

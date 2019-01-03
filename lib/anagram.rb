@@ -13,7 +13,6 @@ class Anagram
     
     diaper.select{|diapers| diapers !== diaper}
       diapers
-    end
     
   end
   

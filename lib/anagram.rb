@@ -13,7 +13,7 @@ class Anagram
   def match(diaper)
     
    #@diaper.split(//).sort == diaper.split(//).sort
-   @diaper.scan(//) {|x,y| print x,y}
+    diaper.select{ |i| i.split(//).sort == @diaper.split(//).sort}
    
     
   end

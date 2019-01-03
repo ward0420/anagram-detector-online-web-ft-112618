@@ -1,4 +1,5 @@
 # Your code goes here!
+require "pry"
 class Anagram
   
   attr_accessor = :diaper
@@ -12,6 +13,7 @@ class Anagram
   def match(diaper)
     
    @diaper.split(//)
+   binding.pry
    @diaper
     
   end

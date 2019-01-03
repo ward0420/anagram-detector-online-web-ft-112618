@@ -11,7 +11,8 @@ class Anagram
   
   def match(diaper)
     
-   @diaper.split
+   @diaper.split(//)
+   @diaper
     
   end
   

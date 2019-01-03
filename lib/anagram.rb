@@ -11,7 +11,7 @@ class Anagram
   
   def match(diaper)
     
-    @diaper.{|diapers| diapers != diaper}
+    @diaper.map{|diapers| diapers != diaper}
       diapers
     
   end
